@@ -35,6 +35,7 @@ Assignment for NLP class at NEU
 | 2   | 56.2   | [84.4, 600]  |
 | 3   | 68.8   | [81.2, 400]  |
 | 4   | 62.5   | [84.4, 200]  |
+
 表1: 不同pattern tuning前后对比
 
 * **pattern内顺序的影响**
@@ -58,6 +59,7 @@ Assignment for NLP class at NEU
 | pattern_1    | [MASK], [SENTENCE] | 90.9  |
 | pattern_2    | [MASK], [SENTENCE] | 92.8  |
 | pattern_3    | [MASK], [SENTENCE] | 91.7  |
+
 表2: 相同pattern不同顺序
 
 * **patter复杂内容的影响**
@@ -88,6 +90,7 @@ Assignment for NLP class at NEU
 | 2           | ---   | negation | 82.9 |
 | 1           | noise | negation | 92.0 |
 | 2           | noise | negation | 86.6 |
+
 表3: 噪声和否定对pattern的影响
 
 ## 实验结果与分析
