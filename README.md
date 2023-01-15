@@ -118,7 +118,6 @@ Assignment for NLP class at NEU
          'Do the following two sentences mean the same thing? [SENTENCE1] [SEP]', ' [SENTENCE2] [SEP]', ' Answer: [MASK]'],
     ]
 
-<center>
 
 ![robert](pic/4.png)
 图2 roberta效果图
@@ -128,5 +127,5 @@ Assignment for NLP class at NEU
 
 ![delberta](pic/3.png)
 图4 deberta效果图
-</center>
+
 实验结果表明，在roberta、albert、deberta上简化后的pattern（minimal）可以达到与复杂pattern（instruction）相近的结果；给pattern加入噪声并不会对性能造成显著的影响，可能模型对pattern中的其他部分更加敏感；misleading类的pattern会对模型造成干扰而变现出比较显著的下降，这些误导确实对模型起到了干扰的作用；在pattern中加入一个短小的例子（demonstration）在许多情况下能取得更好的效果，这也说明了in-context learning的有效性。
